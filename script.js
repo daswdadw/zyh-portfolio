@@ -8,7 +8,7 @@ const dictionaries = {
     eyebrow: "Computer Science Student / AI & Autonomous Systems",
     heroTitleA: "把算法、系统和",
     heroTitleB: "真实场景连接起来",
-    heroText: "我是周允徽，澳门科技大学计算机科学学生，持续聚焦智能驾驶、AI 检索系统、控制算法与工程落地。这个版本是正式可部署的个人网站，支持多风格切换、中英双语和滚动动画展示。",
+    heroText: "我是周允徽，澳门科技大学计算机科学学生，持续聚焦智能驾驶、AI 检索系统、控制算法与工程落地。",
     heroSubtext: "这里不只是简历摘要，也是一份关于我如何学习、做项目、参加比赛，以及理解技术与现实世界关系的个人记录。",
     viewProjects: "查看项目",
     contactMe: "联系我",
@@ -89,7 +89,7 @@ const dictionaries = {
     englishLabel: "英语",
     interestLabel: "兴趣",
     interestValue: "篮球，国家二级运动员",
-    footerText: "可直接部署到 GitHub Pages / Vercel 的静态个人网站。"
+    footerText: ""
   },
   en: {
     navAbout: "About",
@@ -100,7 +100,7 @@ const dictionaries = {
     eyebrow: "Computer Science Student / AI & Autonomous Systems",
     heroTitleA: "Connecting algorithms, systems,",
     heroTitleB: "and real-world scenarios",
-    heroText: "I am Yunhui Zhou, a Computer Science student at Macau University of Science and Technology, focusing on autonomous driving, AI retrieval systems, control algorithms, and engineering delivery. This deployable portfolio supports multi-style themes, bilingual content, and scroll-based motion.",
+    heroText: "I am Yunhui Zhou, a Computer Science student at Macau University of Science and Technology, focusing on autonomous driving, AI retrieval systems, control algorithms, and engineering delivery.",
     heroSubtext: "This site is not only a resume summary, but also a personal record of how I learn, build projects, join competitions, and think about the relationship between technology and the real world.",
     viewProjects: "View Projects",
     contactMe: "Get in Touch",
@@ -181,7 +181,7 @@ const dictionaries = {
     englishLabel: "English",
     interestLabel: "Interests",
     interestValue: "Basketball, National Level-2 Athlete",
-    footerText: "A static portfolio ready for GitHub Pages and Vercel deployment."
+    footerText: ""
   }
 };
 
