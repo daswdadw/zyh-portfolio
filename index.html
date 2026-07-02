@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="周允徽的个人网站，展示教育背景、项目经历、科研、竞赛与技能。">
+  <title>周允徽 | Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-theme="editorial" data-lang="zh">
+  <div class="background-orb orb-a"></div>
+  <div class="background-orb orb-b"></div>
+  <div class="background-grid"></div>
+
+  <header class="topbar shell">
+    <a class="brand" href="#home">ZHOU YUNHUI</a>
+    <nav class="nav">
+      <a href="#about" data-i18n="navAbout">关于</a>
+      <a href="#projects" data-i18n="navProjects">项目</a>
+      <a href="#experience" data-i18n="navExperience">经历</a>
+      <a href="#research" data-i18n="navResearch">科研</a>
+      <a href="#contact" data-i18n="navContact">联系</a>
+    </nav>
+    <div class="toolbar">
+      <div class="lang-switcher">
+        <button class="tool-btn active" data-lang-btn="zh">中文</button>
+        <button class="tool-btn" data-lang-btn="en">EN</button>
+      </div>
+      <div class="theme-switcher">
+        <button class="tool-btn active" data-theme-btn="editorial">杂志</button>
+        <button class="tool-btn" data-theme-btn="neon">未来</button>
+        <button class="tool-btn" data-theme-btn="minimal">极简</button>
+        <button class="tool-btn" data-theme-btn="sport">竞技</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero reveal" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow" data-i18n="eyebrow">Computer Science Student / AI & Autonomous Systems</div>
+        <h1>
+          <span data-i18n="heroTitleA">把算法、系统和</span>
+          <br>
+          <span class="accent" data-i18n="heroTitleB">真实场景连接起来</span>
+        </h1>
+        <p class="hero-text" data-i18n="heroText">
+          我是周允徽，澳门科技大学计算机科学学生，持续聚焦智能驾驶、AI 检索系统、控制算法与工程落地。
+          这个版本是正式可部署的个人网站，支持多风格切换、中英双语和滚动动画展示。
+        </p>
+        <div class="hero-actions">
+          <a class="cta primary" href="#projects" data-i18n="viewProjects">查看项目</a>
+          <a class="cta secondary" href="#contact" data-i18n="contactMe">联系我</a>
+        </div>
+        <div class="chip-row">
+          <span class="chip">GPA 3.40 / 4.0</span>
+          <span class="chip">C / C++ / Python</span>
+          <span class="chip">Autonomous Driving</span>
+          <span class="chip">AI Retrieval</span>
+        </div>
+      </div>
+
+      <aside class="hero-side">
+        <div class="portrait-card float">
+          <div class="portrait-ring">
+            <div class="portrait-core">
+              <span>ZYH</span>
+            </div>
+          </div>
+          <div class="portrait-meta">
+            <strong data-i18n="portraitTitle">技术型学生开发者</strong>
+            <p data-i18n="portraitText">控制算法、自动驾驶、检索系统、竞赛实践</p>
+          </div>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric-card">
+            <div class="metric-value">2</div>
+            <div class="metric-label" data-i18n="metricInternships">段核心实习经历</div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-value">1</div>
+            <div class="metric-label" data-i18n="metricPaper">篇第一作者论文</div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-value">4+</div>
+            <div class="metric-label" data-i18n="metricAwards">项竞赛与荣誉</div>
+          </article>
+          <article class="quote-card">
+            <span data-i18n="heroQuote">我希望自己不只会写代码，而是能让技术真正跑起来。</span>
+          </article>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section reveal" id="about">
+      <div class="section-heading">
+        <p class="section-kicker">01</p>
+        <h2 data-i18n="aboutTitle">关于我</h2>
+      </div>
+      <div class="about-grid">
+        <article class="panel emphasis">
+          <p data-i18n="aboutLead">
+            我更偏向“能落地的技术型选手”：既能做底层实现、算法调试和系统联调，也愿意处理工程细节、迭代实验和结果优化。
+          </p>
+        </article>
+        <article class="panel">
+          <h3 data-i18n="educationTitle">教育背景</h3>
+          <p data-i18n="educationBody">澳门科技大学，计算机科学专业，2023.09 至今。主修课程包括 C 程序设计、C++ 程序设计、数据结构、微积分，核心课程多门 A+。</p>
+        </article>
+        <article class="panel">
+          <h3 data-i18n="strengthsTitle">我的优势</h3>
+          <ul class="bullet-list">
+            <li data-i18n="strength1">能在控制、AI、系统工程和竞赛实战之间切换语境。</li>
+            <li data-i18n="strength2">愿意啃底层细节，也能跟进调试、实验与迭代优化。</li>
+            <li data-i18n="strength3">有跨团队协作和高压比赛经验。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-heading">
+        <p class="section-kicker">02</p>
+        <h2 data-i18n="projectsTitle">项目作品</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <div class="project-tag">Apollo / Perception / Control</div>
+          <h3 data-i18n="project1Title">智能驾驶实车开发链路</h3>
+          <p data-i18n="project1Body">参与智能网联汽车实车开发，完成多传感器驱动部署、标定、建图定位、感知预测与规划控制验证，完整走通自动驾驶系统关键链路。</p>
+          <div class="chip-row">
+            <span class="chip">LiDAR</span>
+            <span class="chip">GNSS / IMU</span>
+            <span class="chip">RTK / NDT / MSF</span>
+            <span class="chip">PID / LQR</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-tag">Elasticsearch / Multimodal / Agent</div>
+          <h3 data-i18n="project2Title">多模态智能检索系统</h3>
+          <p data-i18n="project2Body">搭建并优化 ES 多模态向量库，支持多源异构数据向量化存储与跨模态检索，并参与 AI Agent 检索链路优化与 Prompt 模板库重构。</p>
+          <div class="chip-row">
+            <span class="chip">Vector DB</span>
+            <span class="chip">Recall Strategy</span>
+            <span class="chip">Prompt Design</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-tag">Research / MFAC / Robotics</div>
+          <h3 data-i18n="project3Title">无模型自适应控制研究</h3>
+          <p data-i18n="project3Body">围绕无人车爬坡非线性轨迹跟踪，提出基于 CFDL 的 MFAC 方案，并结合 PPD 在线估计机制与 Lyapunov 稳定性分析验证算法有效性。</p>
+          <div class="chip-row">
+            <span class="chip">CFDL</span>
+            <span class="chip">MFAC</span>
+            <span class="chip">Robustness</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-tag">Course / C Language</div>
+          <h3 data-i18n="project4Title">图书馆管理系统</h3>
+          <p data-i18n="project4Body">独立完成基础图书馆系统，通过链表维护借阅关系，实现图书查询、插入、删除等功能，体现扎实的数据结构与程序设计基础。</p>
+          <div class="chip-row">
+            <span class="chip">C</span>
+            <span class="chip">Linked List</span>
+            <span class="chip">CRUD</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="experience">
+      <div class="section-heading">
+        <p class="section-kicker">03</p>
+        <h2 data-i18n="experienceTitle">经历时间线</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2025.07 - 2025.09</div>
+          <div class="timeline-content">
+            <h3 data-i18n="exp1Title">AI 工程实习生 · 中科闻歌 媒体 AI 事业部</h3>
+            <p data-i18n="exp1Body">参与构建基于 Elasticsearch 的全链路智能检索系统，负责多模态检索模块工程实现与性能优化，提升召回质量、结果稳定性与输出一致性。</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024.07 - 2024.08</div>
+          <div class="timeline-content">
+            <h3 data-i18n="exp2Title">智能网联汽车与智能驾驶 · 浙江大学湖州研究所</h3>
+            <p data-i18n="exp2Body">围绕传感器驱动、标定、建图定位、感知预测与规划控制完成实车开发实践，积累自动驾驶系统联调与算法工程化经验。</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2023.09 - Present</div>
+          <div class="timeline-content">
+            <h3 data-i18n="exp3Title">澳门科技大学 · 计算机科学</h3>
+            <p data-i18n="exp3Body">持续夯实编程、数据结构、数学基础，并在科研、比赛与工程项目中迭代自己的技术方向。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="research">
+      <div class="section-heading">
+        <p class="section-kicker">04</p>
+        <h2 data-i18n="researchTitle">科研与竞赛</h2>
+      </div>
+      <div class="research-grid">
+        <article class="panel research-panel">
+          <h3 data-i18n="paperTitle">第一作者论文</h3>
+          <p data-i18n="paperBody">《基于无模型自适应控制的无人车爬坡非线性轨迹跟踪研究》（2025）提出基于 CFDL 的无模型自适应控制方案，在无需精确数学模型的情况下实现高精度轨迹跟踪，并验证了稳定性与鲁棒性。</p>
+        </article>
+        <article class="panel">
+          <h3 data-i18n="awardsTitle">代表性竞赛</h3>
+          <ul class="bullet-list">
+            <li data-i18n="award1">美国大学生数学建模竞赛 S 奖</li>
+            <li data-i18n="award2">“长城杯”信息铁人三项初赛三等奖</li>
+            <li data-i18n="award3">人工智能 EDGE 级方程式比赛第二名</li>
+            <li data-i18n="award4">NewStar CTF 2025 / “春秋杯” 校内赛道优异奖</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="section-heading">
+        <p class="section-kicker">05</p>
+        <h2 data-i18n="contactTitle">联系我</h2>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-card">
+          <span class="contact-label" data-i18n="phoneLabel">电话</span>
+          <a href="tel:+8613821909292">(86) 13821909292</a>
+        </article>
+        <article class="contact-card">
+          <span class="contact-label" data-i18n="emailLabel">邮箱</span>
+          <a href="mailto:zhouyunhui0118@gmail.com">zhouyunhui0118@gmail.com</a>
+        </article>
+        <article class="contact-card">
+          <span class="contact-label" data-i18n="englishLabel">英语</span>
+          <span>IELTS 6</span>
+        </article>
+        <article class="contact-card">
+          <span class="contact-label" data-i18n="interestLabel">兴趣</span>
+          <span data-i18n="interestValue">篮球，国家二级运动员</span>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <p data-i18n="footerText">Static portfolio for GitHub Pages / Vercel deployment.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
